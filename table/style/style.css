@@ -1,0 +1,46 @@
+table {
+    height: 100vh;
+    width: 80%;
+}
+
+table, td {
+    border: 2px solid black;
+}
+
+td {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 100%; */
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow:hover {
+    background-color: yellowgreen;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue:hover {
+    background-color: cornflowerblue;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.white:hover {
+    background-color: wheat;
+}
+
+dl {
+    border: 1px solid black;
+}
+
+dl, dt, dd {
+    text-align: left;
+}

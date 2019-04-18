@@ -1,0 +1,65 @@
+div {
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 80%;
+}
+
+.left_block, .right_block {
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.left_block {
+    width: 20%;
+    background-color: mediumvioletred;
+    text-align: center;
+}
+
+.left_block:hover {
+    background-color: violet;
+}
+
+.right_block {
+    width: 80%;
+}
+
+.purple_block {
+    height: 20%;
+    background-color: purple;
+    text-align: center;
+}
+
+.purple_block:hover {
+    background-color: plum;
+}
+
+.main_block {
+    cursor: pointer;
+    height: 60%;
+    background-color: whitesmoke;
+}
+
+.main_block:hover {
+    height: 60%;
+    background-color: lightgray;
+}
+
+.page_text {
+    text-align: start;
+    margin: 20px;
+}
+
+pre, ol, ul, li {
+    text-align: start;
+}
+
+ul li {
+    list-style-type: disc;
+}
